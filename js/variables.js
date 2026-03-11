@@ -2,9 +2,9 @@ console.log("Variables JavaScript Lina");
 
 // ¿ Que es una variable? 
 
-// [] string // nunber // bool
+// [] string // number // bool
 
-// -- Let -const
+// -- let -const
 let age = 18;
 console.log("age", age)
 
@@ -32,4 +32,27 @@ const RH = "O+"
 
 console.log("esta es mi descripcion:","Soy", nombre, "mi edad es:", edad, "años,", "mi peso es:", peso, "Kg,", "mi estatura es:", estatura,"cm,", "mi genero es:", genero, "mi RH es:", RH)
 
+
+//crear 3 variables
+//DNI
+//edad
+//nacionalidad
+
+//si tengo dni y soy mayor de edad y tengo nacionalidad 
+//imprimir en consola puedo votar
+//si tengo nacionalidad y soy mayor de edad 
+//imprimir debes ir a la regiistraduria
+//en caso contrarioimprimir en consola no puedes votar
+
+let DNI = false;
+let nacionalidad = true;
+let newAge = 18;
+
+if(DNI && newAge>18 && nacionalidad){
+    console.log("puedo votar")
+} else if(nacionalidad && newAge>=18 && !DNI){
+    console.log("ir a la registraduria")
+}else{
+    console.log("no puede votar")
+}git
 
