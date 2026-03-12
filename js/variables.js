@@ -62,8 +62,8 @@ if(DNI && newAge>18 && nacionalidad){
 
 //Ejercicio 1 — Mayor de edad
 
-let edad = 18; 
-if(edad >= 18) {
+let annos = 18; 
+if(annos >= 18) {
     console.log("puede ir a la universidad");
 }else {
     console.log("no puede ir a la universidad");
@@ -89,8 +89,8 @@ if(numero>= 0) {
 
 //Ejercicio 4 Contraseña correcta (===)
 
-let contraseña = "abc123"
-if(contraseña === "abc123");{
+let contrasena = "abc123"
+if(contrasena === "abc123") {
 console.log("Acceso concedido");
 }else { 
     console.log("Acceso denegado");
@@ -98,9 +98,9 @@ console.log("Acceso concedido");
 
 //Ejercicio 5 Diferencia entre == y ===
 
-let numero = 5;
+let nummero = 5;
 let texto = "5";
-if(numero == texto) {
+if(nummero == texto) {
     console.log("Con == Son iguales, porque solo compara el valor");
 }else {
     console.log("Con === No son iguales porque compara el valor y el tipo");
@@ -108,8 +108,8 @@ if(numero == texto) {
 
 //Ejercicio 6 Temperatura fría
 
-lef temperatura = 20;
-if temperatura = <15; {
+let clima = 10;
+if (clima < 15) {
     console.log("Hace frio, lleva abrigo");
     }else {
         console.log("El clima esta bien");
@@ -204,8 +204,8 @@ if (usuario === "admin" || usuario === "moderador") {
 
 //Ejercicio 15  — Día del fin de semana con ||
 
-let usuario = "sabado";
-if (usuario === "sabado" || usuario === "domingo") {
+let diia = "sabado";
+if (diia === "sabado" || diia === "domingo") {
   console.log("Es fin de semana");
 } else {
   console.log("Es dia de semana");
@@ -215,12 +215,12 @@ if (usuario === "sabado" || usuario === "domingo") {
 
 //Ejercicio 21 — Login de usuario
 
-let usuario = "jerel";
-let contraseña = "1234";
+let usuuario = "jerel";
+let contrasenna = "1234";
 
-if (usuario === "jerel" && contraseña === "1234") {
+if (usuuario === "jerel" && contrasenna === "1234") {
   console.log("Sesion iniciada");
-} else if (usuario === "jerel" && contraseña !== "1234") {
+} else if (usuuario === "jerel" && contrasenna !== "1234") {
   console.log("Contraseña incorrecta");
 } else {
   console.log("Usuario no encontrado");
@@ -228,11 +228,11 @@ if (usuario === "jerel" && contraseña === "1234") {
 
 //Ejercicio 23 — Puede adoptar una mascota
 
-let edad = 20;
+let eddad = 20;
 let viveEnApartamento = false;
 let ingresos = 1200;
 
-if (edad > 18 && !viveEnApartamento && ingresos > 1000) {
+if (eddad > 18 && !viveEnApartamento && ingresos > 1000) {
   console.log("Puede adoptar");
 } else {
   console.log("No cumple los requisitos");
@@ -266,17 +266,16 @@ if (bateria > 80) {
 }
 //Ejercicio 29 — Validar formulario
 
-let nombre = "Lina Minotta";
-let edad = 37;
-let email = "linaminotta@gmail.com";
+let noombre = "Lina Minotta";
+let eedad = 37;
+let emaail = "linaminotta@gmail.com";
 
-if (nombre === "") {
+if (noombre === "") {
   console.log("El nombre no puede estar vacio");
-} else if (edad <= 0) {
+} else if (eedad <= 0) {
   console.log("La edad debe ser mayor a 0");
-} else if (!email.includes("@")) {
+} else if (!emaail.includes("@")) {
   console.log("El email no es válido");
 } else {
   console.log("Formulario enviado");
 }
-
